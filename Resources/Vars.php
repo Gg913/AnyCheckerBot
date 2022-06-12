@@ -7,11 +7,11 @@ $update = json_decode(file_get_contents("php://input"));
 
 ////////////////=========[VARIABLES FROM CONFIG]=========////////////////
 
-$API_KEY = $_ENV['BOT_TOKEN'];
-$USERNAMEBOT = $_ENV['BOT_USERNAME'];
+$API_KEY = $_ENV['5282113283:AAF3IGZojS2vD6624BkPH-QWvSe3rfI_dPM'];
+$USERNAMEBOT = $_ENV['@mdzCHKbot'];
 $WEATHER_API = $_ENV['WEATHER_API_KEY'];
-$TG_DUMP_CHAT = $_ENV['TG_DUMP_CHAT'];
-$TIMEZONELOG = $_ENV['TIMEZONE'];
+$TG_DUMP_CHAT = $_ENV['-1001541044740'];
+$TIMEZONELOG = $_ENV['America/Toronto'];
 
 
 /////////////////////////////////////////////////////////////////
